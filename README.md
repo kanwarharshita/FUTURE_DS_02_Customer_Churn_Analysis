@@ -9,10 +9,11 @@
 
 ## **📊Key Metrics?**
 
-**Category**	   **Total Customers**	  **Churned Customers**
-Count	               7,032	               1,869
-Monthly Charges	      $456.5K	              $139.1K
-Yearly Charges	       $16.0M	               $2.8M
+| Metric          | Total   | Churned | Churn Rate |
+| --------------- | ------- | ------- | ---------- |
+| Customer Count  | 7,032   | 1,869   | 26.6%      |
+| Monthly Charges | $456.5K | $139.1K | 30.5%      |
+| Yearly Charges  | $16.0M  | $2.8M   | 17.5%      |
 
 ## **📈Visualizations**
 
