@@ -69,5 +69,6 @@
 ## **🛠 Technologies Used**
 
 •	**Power BI** – for creating interactive dashboards and charts
+
 •	**Telecom customer dataset** – containing churn labels, demographics, contracts, payments, and service usage
 
