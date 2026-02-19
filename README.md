@@ -20,24 +20,38 @@
 1. Demographics
 Pie charts showing gender and senior citizen distributions:
 
-Total Customers          | Churned Customers
-♂ 49% | ♀ 51%            | ♂ 36% | ♀ 64% 
-Senior: 16%              | Senior: 25%
+| Category | Total Customers | Churned Customers |
+| -------- | --------------- | ----------------- |
+| Male     | 49% ♂           | 36% ♂             |
+| Female   | 51% ♀           | 64% ♀             |
+| Senior   | 16%             | 25%               |
 
 2. Payment Methods
 Bar charts comparing payment preferences:
 
-Credit Card/Check:  25% → 28% ▲
-Paperless Billing:  48% → 68% ⚠️
-Electronic Check:   23% → 42% ⚠️
-Mailed Check:       13% → 10% ▼
+{
+  "type": "bar",
+  "data": {
+    "labels": ["Credit/Check", "Paperless", "E-Check", "Mailed"],
+    "datasets": [{
+      "label": "Total",
+      "data": [25, 48, 23, 13],
+      "backgroundColor": "rgba(54,162,235,0.6)"
+    }, {
+      "label": "Churned",
+      "data": [28, 68, 42, 10],
+      "backgroundColor": "rgba(255,99,132,0.6)"
+    }]
+  }
+}
+
 
 3. Subscription Tenure
 Bar charts by subscription years:
 
-Years 1-2:     ████████████ 55% churn peak
-Years 3-5:     ███████     35% churn
-Years 6+:      ███         10% churn
+1-2 Years: ████████████ 55% (Peak Churn)
+3-5 Years: ███████     35%
+6+ Years:  ███         10%
 
 Insight: Highest churn risk in early lifecycle (1-2 years)
 
