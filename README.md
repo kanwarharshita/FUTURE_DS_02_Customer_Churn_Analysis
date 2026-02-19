@@ -17,7 +17,7 @@
 
 ## **📈Visualizations**
 
-### 1. Demographics###
+### 1. Demographics
 **Pie charts showing gender and senior citizen distributions:**
 
 | Category | Total Customers | Churned Customers |
