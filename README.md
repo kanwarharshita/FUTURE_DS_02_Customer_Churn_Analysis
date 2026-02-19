@@ -17,7 +17,7 @@
 
 ## **📈Visualizations**
 
-###1. Demographics###
+### 1. Demographics###
 **Pie charts showing gender and senior citizen distributions:**
 
 | Category | Total Customers | Churned Customers |
@@ -26,7 +26,7 @@
 | Female   | 51% ♀           | 64% ♀             |
 | Senior   | 16%             | 25%               |
 
-###2. Payment Methods
+### 2. Payment Methods
 **Bar charts comparing payment preferences:**
 
 | Method            | Total | Churned |
@@ -37,7 +37,7 @@
 | Mailed Check      | 13%   | 10%     |
 
 
-###3. Subscription Tenure
+### 3. Subscription Tenure
 **Bar charts by subscription years:**
 
 | Years     | Churn Rate | Visual Representation   |
@@ -48,14 +48,14 @@
 
 **Insight: Highest churn risk in early lifecycle (1-2 years)**
 
-###4. Contract Types
+### 4. Contract Types
 **Pie chart distribution:**
 
 **Month-to-Month: 54% (dominant churn factor)**
 
 **Key Finding: Month-to-month = 54% of all churn cases**
 
-###5. Services Penetration
+### 5. Services Penetration
 **Pie charts showing service adoption gaps:**
 
 | Service          | Total | Churned | Gap     |
