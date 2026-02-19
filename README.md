@@ -17,22 +17,50 @@
 
 ## **📈Visualizations**
 
-•	**Demographics:**
-1.Pie charts showing gender and senior citizen splits
-o	Total: 49% Male / 51% Female
-o	Churned: 36% Male / 64% Female
-•	Payment Methods:
-2.Bar charts for credit card, check, and other payment types
-o	Credit card/check: 25% Total / 28% Churned
-•	Subscription Tenure:
-3.Bar charts by years of subscription
-o	Highest churn in 1–2 years
-•	Contract Types:
-4.Pie charts showing contract distribution
-o	Month-to-month contracts dominate churn (54%)
-•	Services Signed Up:
-5.Pie charts for phone, internet, streaming, etc.
-o	Phone service: 90% Total / 72% Churned
+1. Demographics
+Pie charts showing gender and senior citizen distributions:
+
+Total Customers          | Churned Customers
+♂ 49% | ♀ 51%            | ♂ 36% | ♀ 64% 
+Senior: 16%              | Senior: 25%
+
+2. Payment Methods
+Bar charts comparing payment preferences:
+
+Credit Card/Check:  25% → 28% ▲
+Paperless Billing:  48% → 68% ⚠️
+Electronic Check:   23% → 42% ⚠️
+Mailed Check:       13% → 10% ▼
+
+3. Subscription Tenure
+Bar charts by subscription years:
+
+Years 1-2:     ████████████ 55% churn peak
+Years 3-5:     ███████     35% churn
+Years 6+:      ███         10% churn
+
+Insight: Highest churn risk in early lifecycle (1-2 years)
+
+4. Contract Types
+Pie chart distribution:
+
+pie title Contract Types in Churn
+    "Month-to-Month" : 54
+    "One Year"       : 28
+    "Two Year"       : 18
+
+Key Finding: Month-to-month = 54% of all churn cases
+
+5. Services Penetration
+Pie charts showing service adoption gaps:
+
+| Service          | Total | Churned | Gap     |
+| ---------------- | ----- | ------- | ------- |
+| Phone            | 90%   | 72%     | -18%    |
+| Internet         | 52%   | 44%     | -8%     |
+| Streaming TV     | 29%   | 22%     | -7%     |
+| Streaming Movies | 27%   | 20%     | -7%     |
+| Tech Support     | 29%   | 12%     | -17% ⚠️ |
 
 ## **🛠 Technologies Used**
 
