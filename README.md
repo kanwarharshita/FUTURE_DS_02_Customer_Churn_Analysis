@@ -17,8 +17,8 @@
 
 ## **📈Visualizations**
 
-1. Demographics
-Pie charts showing gender and senior citizen distributions:
+###1. Demographics###
+**Pie charts showing gender and senior citizen distributions:**
 
 | Category | Total Customers | Churned Customers |
 | -------- | --------------- | ----------------- |
@@ -26,47 +26,37 @@ Pie charts showing gender and senior citizen distributions:
 | Female   | 51% ♀           | 64% ♀             |
 | Senior   | 16%             | 25%               |
 
-2. Payment Methods
-Bar charts comparing payment preferences:
+###2. Payment Methods
+**Bar charts comparing payment preferences:**
 
-{
-  "type": "bar",
-  "data": {
-    "labels": ["Credit/Check", "Paperless", "E-Check", "Mailed"],
-    "datasets": [{
-      "label": "Total",
-      "data": [25, 48, 23, 13],
-      "backgroundColor": "rgba(54,162,235,0.6)"
-    }, {
-      "label": "Churned",
-      "data": [28, 68, 42, 10],
-      "backgroundColor": "rgba(255,99,132,0.6)"
-    }]
-  }
-}
+| Method            | Total | Churned |
+| ----------------- | ----- | ------- |
+| Credit/Check      | 25%   | 28%     |
+| Paperless Billing | 48%   | 68% ⚠️  |
+| Electronic Check  | 23%   | 42% ⚠️  |
+| Mailed Check      | 13%   | 10%     |
 
 
-3. Subscription Tenure
-Bar charts by subscription years:
+###3. Subscription Tenure
+**Bar charts by subscription years:**
 
-1-2 Years: ████████████ 55% (Peak Churn)
-3-5 Years: ███████     35%
-6+ Years:  ███         10%
+| Years     | Churn Rate | Visual Representation   |
+| --------- | ---------- | ----------------------- |
+| 1-2 Years | 55%        | ████████████ Peak Churn |
+| 3-5 Years | 35%        | ███████                 |
+| 6+ Years  | 10%        | ███                     |
 
-Insight: Highest churn risk in early lifecycle (1-2 years)
+**Insight: Highest churn risk in early lifecycle (1-2 years)**
 
-4. Contract Types
-Pie chart distribution:
+###4. Contract Types
+**Pie chart distribution:**
 
-pie title Contract Types in Churn
-    "Month-to-Month" : 54
-    "One Year"       : 28
-    "Two Year"       : 18
+**Month-to-Month: 54% (dominant churn factor)**
 
-Key Finding: Month-to-month = 54% of all churn cases
+**Key Finding: Month-to-month = 54% of all churn cases**
 
-5. Services Penetration
-Pie charts showing service adoption gaps:
+###5. Services Penetration
+**Pie charts showing service adoption gaps:**
 
 | Service          | Total | Churned | Gap     |
 | ---------------- | ----- | ------- | ------- |
@@ -78,6 +68,6 @@ Pie charts showing service adoption gaps:
 
 ## **🛠 Technologies Used**
 
-•	Power BI – for creating interactive dashboards and charts
-•	Telecom customer dataset – containing churn labels, demographics, contracts, payments, and service usage
+•	**Power BI** – for creating interactive dashboards and charts
+•	**Telecom customer dataset** – containing churn labels, demographics, contracts, payments, and service usage
 
